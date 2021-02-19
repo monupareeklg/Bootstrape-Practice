@@ -1,0 +1,192 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+}
+
+body {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 0;
+}
+a:hover { text-decoration: none; }
+
+/* Start Feature CSS */
+.green-text {color: #178A27;}
+.blue-text {color: #1686C1;}
+.gray-text {color: #1686C1;}
+.green-btn {background: #178A27;}
+.green-btn:hover {background: #449D44;}
+.blue-btn {background: #1686C1;}
+.blue-btn:hover {background: #31B0D5;}
+.red-btn {background: #852406;}
+.red-btn:hover {background: #C9302C;}
+
+.feature-content {
+    background: #f2f2f2;
+    padding-bottom: 40px;
+}
+
+.feature-content-title {
+    padding-bottom: 0 20px;
+    text-align: left;
+}
+
+.feature-content-description {
+    padding: 0 20ox 35px;
+    text-align: left;
+    color: #333333;
+    margin-top: 15px;
+}
+
+.feature-content-link {
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+            transition: all 0.3 ease;
+}
+
+.feature-content-link:hover, .feature-content-link:link, .feature-content-link:visited  {
+    color: white;
+    text-decoration: none;
+}
+
+/* End Feature CSS */
+
+/* Start Blog CSS */
+
+#blog-area {
+    margin: 60px 0;
+}
+
+.blog-content {
+    background: #f2f2f2;
+    padding-bottom: 25px;
+    max-width: 555px;
+    margin: 0 auto;
+}
+
+.blog-content h2 {
+    color: #666666;
+    text-transform: capitalize;
+}
+
+.blog-content p {
+    padding: 27px;
+    text-align: left;
+    color: #333333;
+}
+
+.blog-content span {
+    margin-left: 225px;
+}
+
+.blog-content span a {
+    background: #fff none repeat scroll 0 0;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    color: #666666;
+    font-size: 18px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.blog-content span a:hover {
+    background: #e6e6e6 none repeat scroll 0 0;
+}
+
+.blog-content > p#blofr {
+    padding: 8px;
+}
+/* End Blog CSS */
+
+/* Start Services CSS */
+div#services-area-main {
+    float: left;
+    width: 100%;
+    margin-top: -200px;
+}
+
+.our-service {
+    margin: 65px 0 85px;
+}
+
+.service h1 {
+    color: #fff;
+    text-transform: capitalize;
+    text-shadow: 2px 2px #aaa;
+    margin-bottom: 20px;
+}
+
+.service p {
+    color: #fff;
+    font-size: 18px;
+}
+/*************navigation******************/
+
+.navbar-inverse {
+    background-color: #383E4C;
+    border-color: #383E4C;
+}
+.navbar-nav>li {
+    display: inline-block;
+    padding: 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    background: #383E4C none repeat scroll 0 0;
+    border: 1px solid #646d7c;
+    color: #fff ;
+    font-size: 20px;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+
+.navbar-inverse .navbar-nav > li > a.current,
+.navbar-inverse .navbar-nav > li > a:hover {
+        background: #49505F;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
